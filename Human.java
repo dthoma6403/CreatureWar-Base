@@ -8,13 +8,18 @@
 
 public class Human extends Creature
 {
-  private final double SPECIAL_CHANCE = .1;
-
+    private int hp;
+    private int strength;
+ 
   Human() {
       super();
+      hp = 30;
+      strength = 18;
+      
   }
 
-  Human(int str, int hp){
-      super(hp, str);
+  Human(int h, int s){
+     hp = h;
+     strength = s;
   }
 }

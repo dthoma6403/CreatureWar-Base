@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Demon()
+comment1.params=str\ hp
+comment1.target=Demon(int,\ int)
+numComments=2

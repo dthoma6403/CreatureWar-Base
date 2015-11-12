@@ -2,8 +2,8 @@
 /**
  * Write a description of class Elf here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Dean Thomas
+ * @version 2015.11.11
  */
 public class Elf extends Creature
 {

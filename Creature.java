@@ -16,10 +16,8 @@ public  abstract class Creature
     * default constructor with base stats of 12 health and strength
     */
    Creature(){
-       hp = 12;
-       strength = 12;
-       // or call the other constructor
-       // this(12,12);
+       hp = 10;
+       strength = 10;
    }
 
    /**
@@ -49,7 +47,7 @@ public  abstract class Creature
      */
     public void takeDamage(int damage){
         hp = hp - damage;
-        // health -= damage;
+        
 
     }
 }
