@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Elf()
+comment1.params=str\ hp
+comment1.target=Elf(int,\ int)
+numComments=2
