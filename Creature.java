@@ -1,5 +1,7 @@
-
 import java.util.Random;
+import java.awt.Graphics2D;
+import javax.swing.*;
+import java.awt.image.BufferedImage;
 /**
  * Write a description of class Creature here.
  * 
@@ -9,9 +11,11 @@ import java.util.Random;
 public  abstract class Creature
 {
    public static Random rand = new Random();
+   private int health;  // when health drops to 0 or below, creature is dead
    private int hp;
    private int strength;
-   
+   private boolean isRight = false;
+
   /**
     * default constructor with base stats of 12 health and strength
     */
@@ -50,4 +54,33 @@ public  abstract class Creature
         
 
     }
+ /**
+     * @ return true if health > 0, else false
+     */
+    public boolean isAlive() {
+
+        return hp > 0;
+
+    }
+
+    public String getHealthText() {
+        if(hp > 0) {
+            return hp + " health remaining.";
+        }
+        else {
+            return "Creature is dead!";
+        }
+    }
+
+    public void setRight(boolean state) {
+		isRight = state;
+	}
+
+	public boolean isRight() {
+		return isRight;
+	}
+
+    public abstract ImageIcon getImage();
+
+
 }

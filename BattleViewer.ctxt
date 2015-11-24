@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=battle
+comment0.target=BattleViewer(Battle)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BattleViewer\r\n
+comment1.params=
+comment1.target=void\ createWindow()
+comment2.params=
+comment2.target=void\ refresh()
+comment3.params=side
+comment3.target=void\ win(java.lang.String)
+numComments=4

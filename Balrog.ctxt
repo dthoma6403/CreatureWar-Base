@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.params=str\ hp
 comment0.target=Balrog(int,\ int)
-numComments=1
+comment1.params=
+comment1.target=int\ attack()
+comment2.params=damage
+comment2.target=void\ takeDamage(int)
+comment3.params=
+comment3.target=javax.swing.ImageIcon\ getImage()
+numComments=4
